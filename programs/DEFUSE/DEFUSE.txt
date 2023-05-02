@@ -1,0 +1,32 @@
+ClrHome
+
+ClrList L₁
+For(I,1,3)
+  Repeat K≠101
+    randInt(1,10)→L
+    randInt(1,5)→C
+    
+    L*10+C→K
+  End
+  
+  K→L₁(I)
+End
+  
+Disp L₁
+
+1→C
+500→T
+While C≤3 and T>0
+  getKey→X
+
+  If X=L₁(C)
+    C+1→C
+  End
+  
+  T-1→T
+  
+  Output(5,7,T)
+  
+  For(I,1,100)
+  End
+End
