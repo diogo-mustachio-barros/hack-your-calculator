@@ -1,4 +1,3 @@
-# Guessing Game
 ![thinking](/images/thinking.webp){:height="280px" .centered-image}
 
 ```basic
