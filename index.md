@@ -5,6 +5,6 @@
 layout: home
 ---
 
-![thinking](images/thinking.webp)
+![thinking](images/thinking.webp){:height="360px"; width="360px"; style="display:block; margin-left:auto; margin-right:auto"}
 ![slots](images/slot-machine.webp)
 ![bomb](images/bomb.webp)
