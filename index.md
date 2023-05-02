@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+![thinking](images/thinking.webp)
+![slots](images/slot-machine.webp)
+![bomb](images/bomb.webp)
