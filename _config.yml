@@ -57,5 +57,4 @@ exclude:
   - Gemfile.lock
   # non-website files
   - programs/
-  - journal.md
-  - setup.md
+  - notes/
