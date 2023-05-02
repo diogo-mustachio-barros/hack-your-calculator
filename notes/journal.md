@@ -61,18 +61,20 @@ Each block of activity lasts for 20 min.
 | ID |     Hour      | # Participants |
 | -: | :-----------: | :------------: |
 |  1 | 10:00 - 10:20 |       00       |
-|  2 | 10:25 - 10:45 |       00       |
-|  3 | 10:50 - 11:10 |       00       |
-|  4 | 11:15 - 11:35 |       00       |
-|  5 | 11:40 - 12:00 |       00       |
-|  6 | 12:05 - 12:25 |       00       |
+|  2 | 10:20 - 10:40 |       00       |
+|  3 | 10:40 - 11:00 |       00       |
+|  4 | 11:00 - 11:20 |       00       |
+|  5 | 11:20 - 11:40 |       00       |
+|  6 | 11:40 - 12:00 |       00       |
+|  7 | 12:00 - 12:20 |       00       |
 | -- |   **LUNCH**   |   **LUNCH**    |
-|  7 | 14:00 - 14:20 |       00       |
-|  8 | 14:25 - 14:45 |       00       |
-|  9 | 14:50 - 15:10 |       00       |
-| 10 | 15:15 - 15:35 |       00       |
-| 11 | 15:40 - 16:00 |       00       |
-| 12 | 16:05 - 16:25 |       00       |
+|  8 | 14:00 - 14:20 |       00       |
+|  9 | 14:20 - 14:40 |       00       |
+| 10 | 14:40 - 15:00 |       00       |
+| 11 | 15:00 - 15:20 |       00       |
+| 12 | 15:20 - 15:40 |       00       |
+| 13 | 15:40 - 16:00 |       00       |
+| 14 | 15:40 - 16:00 |       00       |
 
 ## Plan
 
@@ -90,6 +92,15 @@ Each block of activity lasts for 20 min.
 - Welcome to FCUL
 - Welcome to 'Hack your calculator'
 - The goal for today is learn how to 'bend' the calculator to our will
-- But how?
 - Graphical calculators can be programmed
-- TI
+- TI-Basic is a complete programming language
+- Programming cycle: write -> compile -> execute/run
+- How to program in TI-Basic
+    - Where to write (& compile): TokensIDE
+    - How to run: send to calculator (TI Connect), or emulator (Wabbitemu)
+- Goals for the activity (at least one of the following):
+    - Guessing game
+    - Slots
+    - Defuse the bomb
+- Choose one of the games and follow the tutorial
+- Any questions/problems -> Feel free to ask!
