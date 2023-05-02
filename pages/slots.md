@@ -8,6 +8,17 @@ title: Game - Slots
 
 ![slots](/images/slot-machine.webp){:height="300px" .centered-image}
 
+## Lógica de Jogo
+**TODO**
+
+## Código passo-a-passo 
+**TODO**
+
+## Código completo
+
+[Source](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/hack-your-calculator/hack-your-calculator.github.io/blob/master/programs/SLOTS/SLOTS.txt){:.btn}
+[TI Program](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/hack-your-calculator/hack-your-calculator.github.io/blob/master/programs/SLOTS/SLOTS.8xp){:.btn}
+
 ```basic
 250→M
 
@@ -65,3 +76,9 @@ End
 ClrHome
 Disp "You went bankrupt!"
 ```
+
+## References
+- [TI-Basic Developer - The Home Screen and Its Commands](http://tibasicdev.wikidot.com/homescreen)
+- [TI-Basic Developer - The Output( Command](http://tibasicdev.wikidot.com/output)
+- [TI-Basic Developer - Getting Input from the User](http://tibasicdev.wikidot.com/userinput)
+- [TI-Basic Developer - Controlling Program Flow](http://tibasicdev.wikidot.com/controlflow#toc1)

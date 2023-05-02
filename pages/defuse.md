@@ -28,8 +28,8 @@ O jogo **Defuse the Bomb** coloca uma bomba prestes a explodir nas mãos do joga
 
 ## Código completo
 
-[Source](https://github.com/hack-your-calculator/hack-your-calculator.github.io/raw/master/programs/DEFUSE/DEFUSE.txt){:.btn}
-[TI Program](https://github.com/hack-your-calculator/hack-your-calculator.github.io/raw/master/programs/DEFUSE/DEFUSE.8xp){:.btn}
+[Source](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/hack-your-calculator/hack-your-calculator.github.io/blob/master/programs/DEFUSE/DEFUSE.txt){:.btn}
+[TI Program](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/hack-your-calculator/hack-your-calculator.github.io/blob/master/programs/DEFUSE/DEFUSE.8xp){:.btn}
 
 ```basic
 ClrHome
