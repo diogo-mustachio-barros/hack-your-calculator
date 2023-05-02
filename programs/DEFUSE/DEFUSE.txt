@@ -13,15 +13,21 @@ For(I,1,4)
 End
   
 Disp L₁
+getKey
 
 1→C
 250→T
 While C≤4 and T>0
   getKey→X
 
-  If X=L₁(C)
+  If X=L₁(C) and X≠0
   Then
     C+1→C
+  Else
+    If X≠0
+    Then
+      0→T
+    End
   End
   
   T-1→T
