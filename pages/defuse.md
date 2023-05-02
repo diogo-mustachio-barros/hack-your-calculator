@@ -12,7 +12,7 @@ title: Game - Defuse the Bomb
 ClrHome
 
 ClrList L₁
-For(I,1,3)
+For(I,1,4)
   Repeat K≠101
     randInt(1,10)→L
     randInt(1,5)→C
@@ -26,21 +26,31 @@ End
 Disp L₁
 
 1→C
-500→T
-While C≤3 and T>0
+250→T
+While C≤4 and T>0
   getKey→X
 
   If X=L₁(C)
+  Then
     C+1→C
   End
   
   T-1→T
-  
-  Output(5,7,T)
-  
-  For(I,1,100)
-  End
+
+  Output(3,2,T)
 End
+
+ClrHome
+
+If C>4
+Then
+  Disp "You win!
+Else
+  Disp "KABOOM!
+End
+
+Pause 
+ClrHome
 ```
 
 ## References
