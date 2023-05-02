@@ -54,5 +54,7 @@ exclude:
   # - vendor/ruby/
   - Gemfile
   - Gemfile.lock
+  # non-website files
   - programs/
   - journal.md
+  - setup.md
