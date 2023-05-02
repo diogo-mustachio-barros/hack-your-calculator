@@ -5,16 +5,16 @@
 layout: home
 ---
 
-![thinking](images/thinking.webp){:height="360px"; width="360px"; style="display:block; margin-left:auto; margin-right:auto"}
 ## Guessing Game
+![thinking](images/thinking.webp){:height="300px"; style="display: block; margin-left: auto margin-right: auto}
 
 
 
-![slots](images/slot-machine.webp)
 ## Slot Machine
+![slots](images/slot-machine.webp){:height="300px"; style="display: block; margin-left: auto margin-right: auto}
 
 
 
 
-![bomb](images/bomb.webp)
 ## Defuse the bomb
+![bomb](images/bomb.webp){:height="300px"; style="display: block; margin-left: auto margin-right: auto}
