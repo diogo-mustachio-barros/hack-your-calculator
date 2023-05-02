@@ -6,7 +6,7 @@ layout: home
 ---
 
 ## Guessing Game
-![thinking](images/thinking.webp){:height="300px"; style="display: block; margin-left: auto margin-right: auto}
+![thinking](images/thinking.webp){:height="300px" style="display: block; margin-left: auto margin-right: auto}
 
 ```basic
 ClrHome
@@ -31,7 +31,7 @@ Disp "You lose!","The number was:",N
 
 
 ## Slot Machine
-![slots](images/slot-machine.webp){:height="300px"; style="display: block; margin-left: auto margin-right: auto}
+![slots](images/slot-machine.webp){:height="300px" style="display: block; margin-left: auto margin-right: auto}
 
 ```basic
 250→M
@@ -93,4 +93,4 @@ Disp "You went bankrupt!"
 
 
 ## Defuse the bomb
-![bomb](images/bomb.webp){:height="300px"; style="display: block; margin-left: auto margin-right: auto}
+![bomb](images/bomb.webp){:height="300px" style="display: block; margin-left: auto margin-right: auto}
