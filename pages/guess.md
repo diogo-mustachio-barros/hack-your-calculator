@@ -95,6 +95,28 @@ Para mostrar mensagens ao jogador usamos o comando `Disp `. No caso de vitória,
 Nos casos em que o jogador nâo acerta, mostramos a respetiva mensagem com `Disp "Higher…"` ou
   `Disp "Lower…"`.
 
+Ao todo, o nosso ciclo de jogo fica assim:
+
+```basic
+For(T,1,10)
+  Input "Guess?",G
+  
+  If N=G
+  Then
+    Disp "You've got it!","Guesses:",T
+    Pause 
+    Return
+  Else
+    If N>G
+    Then
+      Disp "Higher…"
+    Else
+      Disp "Lower…"
+    End
+  End
+End
+```
+
 Entâo e se não acertar dentro das 10 tentativas que tem? Nesse caso, depois do nosso ciclo `For`,
   adicionamos a mensagem de derrota. Sabemos que se o jogador checgou até aqui foi porque esgotou 
   as suas tentativas sem acertar.
