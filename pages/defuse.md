@@ -37,7 +37,7 @@ ClrHome
 
 ClrList L₁
 For(I,1,4)
-  Repeat K≠101
+  Repeat K≠101 and K≠35
     randInt(1,10)→L
     randInt(1,5)→C
     
