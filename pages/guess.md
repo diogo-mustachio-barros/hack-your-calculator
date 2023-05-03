@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Game - Guessing Game
+title: Guessing Game
 ---
 
 ![thinking](/images/thinking.webp){:height="280px" .centered-image}

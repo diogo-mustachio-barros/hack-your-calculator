@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Game - Slots
+title: Slots
 ---
 
 ![slots](/images/slot-machine.webp){:height="300px" .centered-image}
