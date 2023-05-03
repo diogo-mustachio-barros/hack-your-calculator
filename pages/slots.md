@@ -8,8 +8,19 @@ title: Game - Slots
 
 ![slots](/images/slot-machine.webp){:height="300px" .centered-image}
 
+O jogo **Slots** simula uma máquina de slots do casino. O jogador começa com uma determinada
+    quantia inicial e 
+
 ## Lógica de Jogo
-**TODO**
+
+1. O jogador entra no casino com 250 *dinheiros*
+2. Cada vez que o jogador joga na *slot machine*, gasta 25 *dinheiros*
+3. Enquanto o jogador tiver *dinheiros* para gastar:
+    1. A máquina tira 3 números aleatórios entre 1 e 7
+    2. Se os primeiros dois números forem iguais, o jogador recebe 25 vezes o produto desses dois
+        números
+    3. Se todos os números forem iguais, o jogador recebe 50 vezes o produto desses 3 números
+4. O jogo termina quando o jogador chegar à bancarrota
 
 ## Código passo-a-passo 
 **TODO**
@@ -50,7 +61,7 @@ Then
 Else
  If A=B and B=C
  Then
-  G+25*A*B*C→G
+  G+50*A*B*C→G
  End
 End
 
