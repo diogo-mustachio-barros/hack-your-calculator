@@ -24,7 +24,8 @@ O jogo **Defuse the Bomb** coloca uma bomba prestes a explodir nas mãos do joga
 
 
 ## Código passo-a-passo 
-**TODO**
+
+\<Pede por ajuda no passo a passo deste exemplo\>
 
 ## Código completo
 

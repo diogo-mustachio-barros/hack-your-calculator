@@ -23,7 +23,8 @@ O jogo **Slots** simula uma máquina de slots do casino. O jogador começa com u
 4. O jogo termina quando o jogador chegar à bancarrota
 
 ## Código passo-a-passo 
-**TODO**
+
+\<Pede por ajuda no passo a passo deste exemplo\>
 
 ## Código completo
 
