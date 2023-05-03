@@ -2,8 +2,6 @@ ClrHome
 
 randInt(1,100)→N
 
-Disp "Guess a number"
-
 For(T,1,10)
   Input "Guess?",G
   

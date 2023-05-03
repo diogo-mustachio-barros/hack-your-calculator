@@ -8,10 +8,18 @@ title: Game - Guessing Game
 
 ![thinking](/images/thinking.webp){:height="280px" .centered-image}
 
-
+O jogo **Guessing Game** desafia o jogador a adivinhar um número aleatório entre 1 e 100. O
+    jogador tem 10 tentativas para adivinhar o número. Sempre que errar é dada uma pista:
+    'Higher' se o número for maior, ou 'Lower' se o número for menor.
 
 ## Lógica de Jogo
-**TODO**
+
+1. O jogo escolhe um número aleatoriamente
+2. O jogo pergunta um máximo de 10 vezes ao utilizador por um palpite
+    1. Se o jogador acertar, vence o jogo
+    2. Se o palpite for maior que o número, o jogo diz 'Higher...'
+    3. Se o palpite for menor que o número, o jogo diz 'Lower...'
+3. Se o jogador não adivinhar em 10 tentativas, perde o jogo (e a resposta certa é mostrada)
 
 ## Código passo-a-passo 
 **TODO**
@@ -25,8 +33,6 @@ title: Game - Guessing Game
 ClrHome
 
 randInt(1,100)→N
-
-Disp "Guess a number"
 
 For(T,1,10)
   Input "Guess?",G
