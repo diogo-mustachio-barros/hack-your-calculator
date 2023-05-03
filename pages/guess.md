@@ -22,7 +22,86 @@ O jogo **Guessing Game** desafia o jogador a adivinhar um número aleatório ent
 3. Se o jogador não adivinhar em 10 tentativas, perde o jogo (e a resposta certa é mostrada)
 
 ## Código passo-a-passo 
-**TODO**
+
+Começamos por limpar o ecrã inicial da calculadora.
+
+```basic
+ClrHome
+```
+
+E retiramos um número aleatório entre 1 e 100, que guardamos depois numa variável N.
+
+```basic
+randInt(1,100)→N
+```
+
+A partir daqui estamos prontos para dar 10 tentativas ao jogador através de um ciclo `For`.
+  Os ciclos sâo a forma de os programas **repetirem** um conjunto de instruções. Neste caso,
+  queremos repetir **10 vezes** perguntar ao jogador por um palpite.
+
+```basic
+For(T,1,10)
+  <código a repetir>
+End
+```
+
+Em cada iteração do ciclo, isto é, cada vez uma das 10 vezes que o ciclo vai ser executado,
+  vamos ter na variável `T`, a iteração em que vamos, ou no nosso caso, qual é o número da 
+  tentativa em que o jogador vai.
+
+Para perguntarmos ao utilizador por um palpite usamos o comando `Input "Guess?", G` que vai
+  mostrar ao jogador `Guess?` na calculadora e depois vai deixar que este introduza o seu 
+  palpite, sendo depois esse palpite guardado na variável `G`.
+
+```basic
+  Input "Guess?",G
+```
+
+Depois de termos o palpite do jogador `G` e o número aleatório `N`, podemos então comparar
+  os dois e ver se:
+- o jogador acertou, e por isso deve ganhar
+- o número é maior que o palpite, e por isso deve dizer-se que é maior
+- o número é menor que o palpite, e por isso deve dizer-se que é menor
+
+Em programação isto corresponde a termos condicionais do género, 
+  `se <isto> então <faz isto> caso contrário <faz aquilo>`. Na calculadora fazemos isto com 
+  `If <condition> Then <code> Else <code> End`.
+
+```basic
+  If N=G
+  Then
+    <o jogador venceu>
+  Else
+    If N>G
+    Then
+      <o número é maior que o palpite>
+    Else
+      <o número é menor que o palpite>
+    End
+  End
+```
+
+Para mostrar mensagens ao jogador usamos o comando `Disp `. No caso de vitória,
+  mostramos a mensagem, juntamente com o número de tentativas que o jogador precisou,
+  pausamos o jogo com `Pause `(para que o jogador se possa bajular na glória da vitória),
+  e terminamos o jogo com o comando `Return`.
+
+```basic
+    Disp "You've got it!","Guesses:",T
+    Pause 
+    Return
+```
+
+Nos casos em que o jogador nâo acerta, mostramos a respetiva mensagem com `Disp "Higher…"` ou
+  `Disp "Lower…"`.
+
+Entâo e se não acertar dentro das 10 tentativas que tem? Nesse caso, depois do nosso ciclo `For`,
+  adicionamos a mensagem de derrota. Sabemos que se o jogador checgou até aqui foi porque esgotou 
+  as suas tentativas sem acertar.
+
+```basic
+Disp "You lose!","The number was:",N
+```
 
 ## Código completo
 
@@ -37,12 +116,14 @@ randInt(1,100)→N
 For(T,1,10)
   Input "Guess?",G
   
-  If N=G:Then
+  If N=G
+  Then
     Disp "You've got it!","Guesses:",T
     Pause 
     Return
   Else
-    If N>G:Then
+    If N>G
+    Then
       Disp "Higher…"
     Else
       Disp "Lower…"
