@@ -24,7 +24,11 @@ O jogo **Slots** simula uma máquina de slots do casino. O jogador começa com u
 
 ## Código passo-a-passo 
 
-\<Pede por ajuda no passo a passo deste exemplo\>
+Começamos por limpar o ecrã inicial da calculadora.
+
+```basic
+ClrHome
+```
 
 ## Código completo
 
@@ -36,55 +40,53 @@ O jogo **Slots** simula uma máquina de slots do casino. O jogador começa com u
 
 While (M≥25)
 
-ClrHome
-0-25→G
+  ClrHome
+  0-25→G
 
 
-randInt(1,7)→A
-Output(4,5,A
+  randInt(1,7)→A
+  Output(4,5,A
 
-For(X,1,1000)
+  For(X,1,1000)
+  End
+
+  randInt(1,7)→B
+  Output(4,8,B)
+
+  For(X,1,1000)
+  End
+
+  randInt(1,7)→C
+  Output(4,11,C
+
+
+  If A=B and B≠C
+  Then
+    G+25*A*B→G
+  Else
+    If A=B and B=C
+    Then
+      G+50*A*B*C→G
+    End
+  End
+
+
+  If G≥0
+  Then
+    Output(7,1,"Gain:")
+  Else
+    Output(7,1,"Loss:")
+  End
+  Output(8,1,G)
+
+  M+G→M
+
+  Output(7,10,"Money:")
+  Output(8,10,M)
+
+  Pause 
 End
 
-randInt(1,7)→B
-Output(4,8,B)
-
-For(X,1,1000)
-End
-
-randInt(1,7)→C
-Output(4,11,C
-
-
-If A=B and B≠C
-Then
- G+25*A*B→G
-Else
- If A=B and B=C
- Then
-  G+50*A*B*C→G
- End
-End
-
-
-If G≥0
-Then
- Output(7,1,"Gain:")
-Else
- Output(7,1,"Loss:")
-End
-Output(8,1,G)
-
-
-M+G→M
-
-
-Output(7,10,"Money:")
-Output(8,10,M)
-
-Pause 
-
-End
 ClrHome
 Disp "You went bankrupt!"
 ```
