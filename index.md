@@ -31,7 +31,7 @@ Como é que fazemos isto? Simples. Para começar, usamos a zona editável à dir
     Devem guardar este ficheiro num sítio facilmente acessível (no **Ambiente de Trabalho** ou
     **Desktop** por exemplo). Quando tivermos o nosso programa escrito, basta ir a 
     `Build -> 8x -> Tokenize .8xp` (ou simplesmente carregar **F5**). Vai-vos ser perguntado
-    o nome do programa que deve **sempre começar com letra maiúscula**.
+    o nome do programa que deve **ter apenas letras maiusculas**.
 
 ![token-ide-build](/images/token-ide-build.png)
 
