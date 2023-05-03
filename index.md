@@ -7,7 +7,7 @@ layout: home
 
 ![fcul_logo](/images/fcul.png){: width="600px" .centered-image}
 
-## Bem-vindos ao *Hack Your Calculator* @ FCUl!
+## Bem-vindos ao *Hack Your Calculator* @ FCUL!
 
 Nesta atividade vão aprender a programar as calculadoras gráficas TI-83/84 usando a linguagem
     ***TI-Basic***, especifíca para estas. É possível programar à mão usando apenas uma 
