@@ -10,41 +10,43 @@ layout: home
 ## Bem-vindos ao *Hack Your Calculator* @ FCUL!
 
 Nesta atividade vão aprender a programar as calculadoras gráficas TI-83/84 usando a linguagem
-    ***TI-Basic***, especifíca para estas. É possível programar à mão usando apenas uma 
+    ***TI-BASIC***, especifíca para estas. É possível programar à mão usando apenas uma 
     calculadora, no entanto, vamos ser **programadores a sério** e usar um IDE (Integrated
-    Development Environment) próprio para a tarefa: o ***TokenIDE*** . Esta ferramenta vai nos
-    permitir escrever os programas rapidamente e compilar os executáveis que podemos depois 
+    Development Environment) próprio para a tarefa: o [***TokenIDE***][tokens] . Esta ferramenta vai
+    permitir-nos escrever rapidamente os programas e compilar os executáveis que podemos depois 
     usar nas nossas calculadoras.
 
 ## O que vamos usar?
-A atividade hoje vai ser principalmente em torno do ***TokenIDE***.
+A atividade hoje vai ser principalmente em torno do [***TokenIDE***][tokens].
 
 ![token-ide](/images/token-ide.png)
 
-O IDE é uma das ferramentas mais importantes para o programador, *é a nossa casa*. No TokenIDE
+O IDE é uma das ferramentas mais importantes para o programador, *é a nossa casa*. No [TokenIDE](tokens)
     vamos:
 - Escrever código
 - Compilar executáveis para as calculadoras TI-83/84
 
-Como é que fazemos isto? Simples. Para começar, usamos a zona editável à direita para ir
-    escrevendo código, tendo o cuidado de guardar o nosso progresso fazendo **Ctrl+S**.
-    Devem guardar este ficheiro num sítio facilmente acessível (no **Ambiente de Trabalho** ou
-    **Desktop** por exemplo). Quando tivermos o nosso programa escrito, basta ir a 
-    `Build -> 8x -> Tokenize .8xp` (ou simplesmente carregar **F5**). Vai-vos ser perguntado
-    o nome do programa que deve **ter apenas letras maiusculas**.
+Para começar, usamos a zona editável à direita para ir escrevendo código, tendo o cuidado de 
+    guardar o nosso progresso fazendo **Ctrl+S**. Para as atividades de hoje podem guardar os
+    ficheiros no **Ambiente de Trabalho** (ou **Desktop**), mas podem escolher o lugar que 
+    for mais conveninente.
+   
+Quando tivermos o nosso programa escrito, basta ir a `Build -> 8x -> Tokenize .8xp` 
+    (ou simplesmente carregar **F5**). Vai-vos ser perguntado o nome do programa que deve 
+    **ter apenas letras maiusculas**, caso contrário **não irá funcionar na calculadora**.
 
 ![token-ide-build](/images/token-ide-build.png)
 
-A partir daqui, basta transferir o nosso programa `.8xp` para a calculadora e executar a partir 
-    do menu disponível em **PRGM**.
+A partir daqui, basta transferir o nosso programa, com extensão `.8xp`, para a calculadora e 
+    executar a partir do menu disponível em **PRGM**.
 
 ## Qual o objetivo para hoje?
 O objetivo principal é divertirem-se a descobrir o que podem fazer com o que aparenta ser uma
     ferramenta aborrecida de matemática! Disponibilizamos neste website um tutorial para cada
     um dos 3 jogos disponíveis:
-- **Guessing Game** - adivinha o número certo
-- **Slots** - joga slots no casino
-- **Defuse the Bomb** - desarma a bomba antes que rebente
+- [**Guessing Game**]({{ site.url }}{{ site.baseurl }}/pages/guess) - adivinha o número certo
+- [**Slots**]({{ site.url }}{{ site.baseurl }}/pages/slots) - joga slots no casino
+- [**Defuse the Bomb**]({{ site.url }}{{ site.baseurl }}/pages/defuse) - desarma a bomba antes que rebente
 
 Cada tutorial segue o caminho que um programador faz quando desenha um programa novo. Começa com
     uma descrição simples do que se quer fazer, seguida de uma descrição mais detalhada 
@@ -56,3 +58,6 @@ Cada tutorial segue o caminho que um programador faz quando desenha um programa 
 
 Explora um (ou mais) programas através do respetivo tutorial e descobre como podes *hackear* a 
     tua calculadora gráfica para te entreteres!
+
+
+[tokens]: http://merthsoft.com/
